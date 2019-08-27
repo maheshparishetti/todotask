@@ -9,13 +9,15 @@ import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { Taskdisplay1Component } from './taskdisplay1/taskdisplay1.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TaskdisplayComponent,
-    Taskdisplay1Component
+    Taskdisplay1Component,
+    MenuComponent
   ],
   imports: [
     BrowserModule,FormsModule,NgbModule,NgbPaginationModule,NgbAlertModule,ReactiveFormsModule
